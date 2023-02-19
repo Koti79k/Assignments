@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
-@EnableElasticsearchRepositories(basePackages = "Students.Repository")
+@EnableElasticsearchRepositories(basePackages = "Students.Repositery")
 @ComponentScan(basePackages = {"Students"})
 public class StudentsReportingSystemApplication {
 
